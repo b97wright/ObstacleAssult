@@ -16,10 +16,8 @@ void AMovingPlatform::BeginPlay()
 {
 	Super::BeginPlay();
 
-	MyInt = 9;
-
-	OutputC = InputA + InputB;
-	
+	//MyX = MyVector.X
+	MyVector.Y = MyX;
 }
 
 // Called every frame
