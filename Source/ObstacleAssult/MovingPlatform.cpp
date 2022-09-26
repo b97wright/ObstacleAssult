@@ -18,6 +18,9 @@ void AMovingPlatform::BeginPlay()
 
 	StartLocation = GetActorLocation();
 
+	UE_LOG(LogTemp, Display, TEXT("MyTest: %f"), MyVar);
+	UE_LOG(LogTemp, Warning, TEXT("I'm %s and I'm %i"), TEXT("Dan"), 29);
+
 }
 
 // Called every frame
